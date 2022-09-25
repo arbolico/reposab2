@@ -1,0 +1,87 @@
+/* selectores de etiqueta*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/glitch.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+nav{
+    background-image: url(../img/glitch.jpg);
+    background-size: 100%;
+}
+
+nav ul{
+    list-style: none ;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+
+}
+
+/* selecciono al hijo*/
+
+main section p{
+    color: rgb(239, 238, 238);
+    font-family: 'Roboto', sans-serif;
+    font-size:  1.8rem;
+    line-height: 2rem;
+
+
+}
+
+/*Selector de grupo*/
+
+h1,h2,h3{
+    color: rgb(227, 145, 189);
+    font-family: 'Roboto', sans-serif;
+    font-style:normal;
+
+
+}
+
+/* Selectores de clases*/
+
+.text-pink{
+color: pink;
+
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/*Selector d ID*/
+#Contacto
+/*Propiedades*/
+
+
